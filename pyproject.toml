@@ -5,7 +5,20 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "datasets>=3.1.0",
+    "duckduckgo-search>=6.3.5",
+    "gradio>=5.3.0",
     "ipykernel>=6.29.5",
+    "jsonpatch>=1.33",
+    "langchain-community>=0.3.7",
+    "langchain-core>=0.3.19",
+    "numpy==1.26",
     "pandas>=2.2.2",
+    "peft>=0.13.2",
+    "python-dotenv>=1.0.1",
     "scikit-learn>=1.5.2",
+    "torch>=2.5.1",
+    "transformers>=4.46.2",
+    "yahooquery>=2.3.7",
+    "yfinance>=0.2.49",
 ]
